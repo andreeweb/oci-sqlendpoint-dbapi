@@ -16,6 +16,7 @@ Usage
 ------------
 Look inside the test folder to see some code samples to run. Define your script file, import the test_odbc module, define your host and driver path, and run the test functions.
 
+```python
     from test_odbc_dialect import *
     from test_odbc import *
 
@@ -28,6 +29,7 @@ Look inside the test folder to see some code samples to run. Define your script 
 
     print("Test connection")
     test_workspace(HOST, DRIVER_PATH)
+```
 
 MIT License
 ------------
