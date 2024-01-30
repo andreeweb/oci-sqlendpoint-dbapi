@@ -1,4 +1,19 @@
+oci-sqlendpoint-dbapi
+================
+
+A thin wrapper around [pyhive](<https://github.com/dropbox/PyHive>) and [pyodbc](https://github.com/mkleehammer/pyodbc>) to connect a [Oracle Data Flow SQL Endpoint](https://docs.oracle.com/en-us/iaas/data-flow/using/sql-endpoints.htm) via Python and SQL Alchemy.
+
+It requires the Simba ODBC driver.
+
+Installation
+------------
+
+Clone this repo and install using pip.
+
+    pip install .
+
 MIT License
+------------
 
 Copyright (c) 2024 Andrea Cerra
 
