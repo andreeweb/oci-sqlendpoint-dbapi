@@ -17,18 +17,18 @@ Usage
 Look inside the test folder to see some code samples to run. Define your script file, import the test_odbc module, define your host and driver path, and run the test functions.
 
 ```python
-    from test_odbc_dialect import *
-    from test_odbc import *
+from test_odbc_dialect import *
+from test_odbc import *
 
-    HOST = "anthel...ybnza.interactive.dataflowclusters.eu-frankfurt-1.oci.oraclecloud.com"
+HOST = "anthel...ybnza.interactive.dataflowclusters.eu-frankfurt-1.oci.oraclecloud.com"
 
-    DRIVER_PATH = "/Library/simba/ocispark/lib/universal/libsparkodbc_sbu.dylib"
+DRIVER_PATH = "/Library/simba/ocispark/lib/universal/libsparkodbc_sbu.dylib"
 
-    print("Test sqlalchemy")
-    test_sqlalchemy_workspace(HOST, DRIVER_PATH)
+print("Test sqlalchemy")
+test_sqlalchemy_workspace(HOST, DRIVER_PATH)
 
-    print("Test connection")
-    test_workspace(HOST, DRIVER_PATH)
+print("Test connection")
+test_workspace(HOST, DRIVER_PATH)
 ```
 
 MIT License
